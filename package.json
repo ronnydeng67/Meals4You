@@ -2,10 +2,10 @@
   "name": "meals4you",
   "version": "1.0.0",
   "description": "",
-  "main": "www",
+  "main": "/backend/bin/www",
   "scripts": {
-    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
-    "start": "cd backend && node ./bin/www"
+    "start": "npm install --prefix backend && cd backend && node ./bin/www",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
   "repository": {
     "type": "git",
