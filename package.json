@@ -18,7 +18,7 @@
     "url": "https://github.com/penghuidong520/Meals4You/issues"
   },
   "engines": {
-    "node": "16.x"
+    "node": "21.2.0"
   },
   "homepage": "https://github.com/penghuidong520/Meals4You#readme",
   "dependencies": {
