@@ -2,7 +2,7 @@
   "name": "meals4you",
   "version": "1.0.0",
   "description": "",
-  "main": "www.js",
+  "main": "www",
   "scripts": {
     "start": "cd backend && node ./bin/www",
     "hero-postbuild": ""
