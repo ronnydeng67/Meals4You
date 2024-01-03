@@ -5,7 +5,8 @@
   "main": "www",
   "scripts": {
     "start": "cd backend && node ./bin/www",
-    "build": "npm install --prefix frontend && npm run build --prefix frontend"
+    "build": "npm install --prefix frontend && npm run build --prefix frontend",
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
