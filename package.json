@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node .backend/bin/www"
+    "start": "node .backend/bin/www",
+    "hero-postbuild": ""
   },
   "repository": {
     "type": "git",

@@ -44,5 +44,5 @@
   "devDependencies": {
     "redux-logger": "^3.0.6"
   },
-  "proxy": "http://localhost:5000"
+  "proxy": "https://meals4u-app-63d7a38b486e.herokuapp.com/"
 }
