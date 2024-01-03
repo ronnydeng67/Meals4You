@@ -20,7 +20,7 @@
   "engines": {
     "node": "21.2.0"
   },
-  "homepage": "https://github.com/penghuidong520/Meals4You#readme",
+  "homepage": "https://meals4u-app-63d7a38b486e.herokuapp.com",
   "dependencies": {
     "axios": "^1.1.3",
     "bcryptjs": "^2.4.3",
