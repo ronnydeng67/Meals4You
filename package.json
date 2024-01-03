@@ -4,6 +4,7 @@
   "description": "",
   "main": "www",
   "scripts": {
+    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
     "start": "cd backend && node ./bin/www"
   },
   "repository": {
