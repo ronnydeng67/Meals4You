@@ -1,1 +1,1 @@
-web: cb backend && node ./bin/www
+web: node .backend//bin/www

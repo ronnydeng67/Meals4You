@@ -4,7 +4,7 @@
   "description": "",
   "main": "/backend/bin/www",
   "scripts": {
-    "start": "npm install --prefix backend && cd backend && node ./bin/www",
+    "start": "cd backend && node ./bin/www",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
   "repository": {
