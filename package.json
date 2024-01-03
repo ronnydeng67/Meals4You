@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cd backend && node ./bin/www"
+    "start": "node .backend/bin/www"
   },
   "repository": {
     "type": "git",
